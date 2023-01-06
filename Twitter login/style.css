@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(35, 44, 51, 0.966); 
+    position: relative;
+    color: white;
+    margin: auto;
+   
+}
+
+.twitter{
+    background-color: black;
+    height: 100%;
+    width: 600px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.title{
+    font-size: 11pt;
+    text-align: initial;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline-end: 3rem;
+}
+.title span{
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-inline-end: 31rem;
+    font-size: 12pt;
+    cursor: none;
+}
+.title span:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    height: 27px;
+    width: 33px;
+    text-align: center;
+    background:  rgba(255, 255, 255, 0.171);
+    border-radius: 50%;
+}
+.tt{
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-inline-start: 3rem;
+    margin-bottom: 1rem;
+    height: 35px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.buttons button{
+    height: 40px;
+    width: 300px;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    padding: 1.2rem;
+}
+.linhas{
+    display: flex;
+    gap: 1rem;
+    outline: none;
+    text-align: center;
+}
+.a{
+    color: black;
+    border-top: 1px rgb(105, 105, 105) solid;
+    margin-top: 0.7rem;
+}
+.buttons img{
+    width: 20px;
+    align-items: center;
+}
+
+button{
+    cursor: pointer;
+}
+.depois{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depois button{
+    height: 40px;
+    width: 100%;
+}
+
+.email{
+    position: relative;
+    height: 63px;
+    width: 300px;
+    border: 1px solid rgba(35, 44, 51, 0.966);
+    border-radius: 3px;
+    background-color: black;
+    text-align: initial;
+    font-size: 11pt;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding-left: calc(0.5rem);
+}
+.email:focus{
+    color: white;
+    outline: none;
+    border-color: rgba(0, 153, 255, 0.932);
+    text-align: initial;
+    background: none;
+    
+}
+.email:focus::placeholder{
+    transition: 0.5s;
+    color: rgba(0, 153, 255, 0.932);
+}
+.final{
+    margin-inline-end: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    font-size: 10pt;
+    color: rgb(105, 105, 105);
+}
+.esqueceu{
+    background-color: black;
+    color: white;
+    border: 2px solid rgba(35, 44, 51, 0.966);
+}
+.esqueceu:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+}
+.final a{
+    text-decoration: none;
+    color: rgba(0, 153, 255, 0.932);
+}
+.final a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 700px){
+
+    body{
+        transition: 0.5s;
+        background-color: black;
+    }
+
+    .twitter{
+        width: 100%;
+        position: fixed;
+        bottom: auto;
+        padding: 1rem;
+    }
+}

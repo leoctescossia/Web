@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(tokyo-japan-aestethic-artwork-digital-art-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    /*background: linear-gradient(to right, rgb(0, 217, 255), rgb(241, 2, 241));*/
+}
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 7rem auto;
+    background-color: white;
+    border-radius: 2rem;
+    width: 500px;
+    position: relative;
+    font-size: 20pt;
+}
+.spa{
+    font-size: 10pt;
+    color: rgba(0, 0, 0, 0.541);
+}
+button{
+    border-radius: 2rem;
+    border: none;
+    font-size: 15pt;
+    height: 45px;
+    width: 25%;
+    color: white;
+    background-color: blueviolet;
+    margin: 2rem;
+    border: none;
+}
+button:hover{
+    background-color: rgba(137, 43, 226, 0.699);
+    cursor: pointer;
+}
+button[disabled]{
+    cursor: default;
+    opacity: 65%;
+}
+
+.topo{
+    margin: 3rem;
+}
+.Verification{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.Verification input{
+    border-radius: 1.2rem;
+    border-color: black;
+    height: 70px;
+    width: 12%;
+    margin-bottom: 3rem;
+    cursor: text;
+    font-size: 20pt;
+    border: solid black 1px;
+    text-align: center;
+}
+.Verification input:active{
+    transform: scale(1.095);
+}
+
+.Verification input:focus{
+    border: transparent;
+    outline: 2px solid blueviolet;
+}
+
+@media (max-width: 768px){
+
+    body{
+        padding: 2rem 0;
+    }
+
+    .borda{
+        width: 320px;
+        padding: 2rem;
+    }
+}
