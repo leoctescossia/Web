@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background: linear-gradient(to right, #1100ffe7 0%, #ea00ff 100%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.borda{
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 450px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 4rem; 
+}
+.borda::before{
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.15);
+    inset: 0;
+    transform: rotate(-5deg);
+    z-index: -1;
+}
+
+a{
+    text-decoration: none;
+    color: #35339a;
+}
+a:hover{
+    text-decoration: underline;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.521);
+}
+.login h3{
+    font-size: 30px;
+    color: black;
+}
+
+.forms input[type="text"],
+.forms input[type="email"],
+.forms input[type="password"] {
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, .3);
+    padding-left: calc(1rem * 3.5);
+    border-radius: 100px;
+    width: 100%;
+    transition: background .5s;
+}
+.forms:hover{
+    border: solid #ea00ff73;
+    background: rgba(255, 255, 255, 0.603);
+    transform: scale(1,1);
+    border-radius: 100px;
+}
+
+.forms span{
+    color: white;
+}
+.forms-item .forms .form-item-icon{
+    position: absolute;
+    top: .82rem;
+    left: 1.4rem;
+    font-size: 1.3rem;
+    opacity: .4;
+}
+.forms{
+    position: relative;
+}
+.forms-item{
+     margin-top: 2rem ;
+     gap: 1.2rem;
+     display: flex;
+     flex-direction: column;
+}
+/*
+.botoes button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    
+}*/
+.botoes button{
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    color: white;
+    background: black;
+    border-radius: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+.botoes button:hover{
+    background: rgba(0, 0, 0, 0.911);
+    cursor: pointer;
+}
+.link{
+    margin-top: 1rem;
+    font-size: 14px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    gap: 2.5rem;
+    font-size: 13px;
+}
+@media (max-width: 768px){
+
+    body{
+        padding: 2rem 0;
+    }
+
+    .borda{
+        width: 320px;
+        padding: 2rem;
+    }
+}
