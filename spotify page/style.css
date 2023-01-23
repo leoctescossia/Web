@@ -11,6 +11,7 @@
 body{
     background: linear-gradient(to top left, #6A5ACD, #87CEFA) fixed no-repeat;
     color: black;
+    transition: 0.3s;
 }
 .todo{
     display: flex;
@@ -18,7 +19,7 @@ body{
     align-items: center;
     margin: 2.7rem auto;
     text-align: center;
-    /*transition: 3s;*/
+    transition: 0.3s;
     overflow: hidden;
 }
 .logo{

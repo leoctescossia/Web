@@ -78,7 +78,7 @@ let songs =  [
         artista: 'sumika',
         musica: './musicas/sumika  ファンファーレMUSIC VIDEO.mp3',
         imagem: './imagens/sumika.jpg',
-        cor_de_fundo: 'linear-gradient(to top left, rgba(88,160,205,1) , rgba(193,231,254,1) )',
+        cor_de_fundo: 'linear-gradient(to top left, rgba(88,160,205,1) , rgba(193,231,254,1) ) fixed no-repeat',
         cor_do_texto: 'color: white',
         tempo: '03:16',
     },

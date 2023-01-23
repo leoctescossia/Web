@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    /*font-family: 'Nanum Gothic', sans-serif;*/
+}
+body{
+    background: linear-gradient(to left, rgb(243, 202, 127), rgba(255, 72, 0, 0.808));
+}
+
+#imgs{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 1px solid green;
+    align-items: center;
+    border: none;
+}
+#imgs img{
+    width: 270px;
+    height: 270px;
+    margin: 0;
+    padding: 0;
+}
+/*
+#imagem:hover{
+    width: 320px;
+    height: auto;
+   
+}
+*/
+.card,.card-1,.card-2,.card-3{
+    height: 290px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 0pt;
+    transition: 0.8s;
+    border: 1px solid red;
+    border: none;
+}
+
+.card span,.card-1 span,.card-2 span,.card-3 span{
+    position: absolute;
+    top: 145px;
+    right: initial;
+    color: white;
+}
+
+.card-1 span,.card-2 span,.card-3 span{
+    position: absolute;
+    top: 145px;
+    right: initial;
+    color: white;
+    border: 1px red solid;
+    
+}
+.card .span2,.card-1 .span2,.card-2 .span2,.card-3 .span2{
+    top: 175px;
+}
+.card:hover,.card-1:hover,.card-2:hover,.card-3:hover{
+    transition: 0.8s;
+    width: 590px;
+    height: auto;
+    font-size: 14pt;
+    text-align: center;
+}
+#imgs img:hover{
+    transition: none;
+    width: 590px;
+    height: 270px;
+    margin: 0;
+    padding: 0;
+    -webkit-filter: blur(0.6px) brightness(0.5);
+    -moz-filter: blur(0.6px) brightness(0.5);
+    -ms-filter: blur(0.6px) brightness(0.5);
+    -o-filter: blur(0.6px) brightness(0.5);
+    filter: blur(0.6px) brightness(0.5);
+}
