@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+#img1{
+    height: 190px;
+}
+.teste{
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.crossbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.crossbar input{
+    height: 40px;
+    width: 250px;
+    border: none;
+    font-size: 14pt;
+    text-align: initial;
+    padding-left: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Pathway Extreme', sans-serif;
+    outline: none;
+}
+.crossbar button{
+    border: none;
+    background: none;
+}
+.crossbar img{
+    height: 30px;
+}
+.crossbar img:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    height: 30px;
+    background:  rgba(0, 179, 255, 0.519);
+    border-radius: 1rem;
+}
+
+#loca{
+   position: absolute;
+}
+.imagem{
+    padding-top: 1.2rem;
+}
+.tempo{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 13pt;
+    gap: 0.2rem;
+}
+.tempo h1{
+    font-size: 32pt;
+    padding-top: 0.5rem;
+}
+.outros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem;
+    gap: 4rem;
+}
+.outros img{
+    height: 30px;
+}
+.outros-img{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.outros-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
