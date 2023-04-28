@@ -14,7 +14,7 @@ const data = new Date();
 button_pesquisa.addEventListener('click', clicou);
 
 function clicou(){
-    const API = '7b69dd30a312c20849c2d7c4d2e24c05';
+    //const API = '7b69dd30a312c20849c2d7c4d2e24c05';
     //const API = '728b0ee6df5687559812bd3169ad77b7';
     const input_pesquisa = document.getElementById('pesquisa').value;
     /*
